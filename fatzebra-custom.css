@@ -1,7 +1,28 @@
-body{
-    background-color: #f4f4f4;
+body {
+  background-color: #f4f4f4;
 
-    .sdk-content{
-        padding: 0 !important;
+  .sdk-content {
+    padding: 0 !important;
+  }
+
+  .resize-container {
+    padding: 0 !important;
+  }
+
+  .input-container {
+    border-radius: 10px !important;
+    input {
+      border-radius: 10px !important;
+      padding: 16px 24px !important;
+      border: 1px solid #a3a3a3 !important;
     }
+
+    .border-danger-500 {
+      border-color: #da1307 !important;
+      color: #da1307 !important;
+    }
+    .outline-danger-500 {
+      outline-color: #da1307 !important;
+    }
+  }
 }
